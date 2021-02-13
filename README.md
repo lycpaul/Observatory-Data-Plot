@@ -64,7 +64,7 @@ The entire Bokeh server applications can be embedded into other python script or
 
 ```
 from bokeh.embed import server_document
-script = server_document("http://12.0.0.1:5000/observatory_data_plot")
+script = server_document("http://127.0.0.1:5000/observatory_data_plot")
 ```
 
 The returned script tag will look something like this:
